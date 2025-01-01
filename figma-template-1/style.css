@@ -1,0 +1,259 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header-contant {
+  width: 100%;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 26px;
+  left: 50px;
+  top: 36px;
+}
+
+/* Everything You Need to Open a Successful Ecommerce St ore */
+.hero-content {
+  position: absolute;
+  width: 438px;
+  height: 156px;
+  left: 50px;
+  top: 212px;
+}
+.hero-content-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  box-sizing: border-box;
+}
+
+/* Shoppers spend more than $26 billion and placed over 185 Million orders on SiteName ecommerce website */
+
+.hero-paragrapgh-position {
+  position: absolute;
+  width: 438px;
+  height: 52px;
+  left: 5px;
+  top: 232px;
+}
+
+.hero-content-paragrapgh {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 144% */
+  display: flex;
+  align-items: center;
+
+  /* Cold Grey/40 */
+  color: #9a9ea5;
+}
+/* button */
+.btn {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 10px;
+  top: 348px;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 26px;
+  gap: 10px;
+  background: linear-gradient(90deg, #92ebf1 0%, #86fde8 100%);
+  border-radius: 30px;
+  border: none;
+}
+
+.btn-design {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.right-image {
+  position: absolute;
+  width: 659px;
+  height: 674px;
+  left: -80px;
+  top: -190px;
+}
+.bg {
+  width: 100%;
+  position: absolute;
+  left: 720px;
+  right: -134px;
+  top: -27px;
+  bottom: -27px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.15)
+    ),
+    linear-gradient(5.78deg, #aad5d7 4.59%, rgba(194, 228, 231, 0.0001) 29.65%),
+    radial-gradient(
+        33.87% 46.72% at 1.99% 30.7%,
+        #b8e5e7 0%,
+        rgba(171, 218, 220, 0.0001) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(88.89% 122.63% at 99.47% 33.2%, #97cdd2 0%, #abdadc 100%)
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-blend-mode: color, normal, normal, normal;
+}
+
+.img-position {
+  position: absolute;
+  left: 120px;
+  /* right: 120px; */
+  top: 155px;
+  /* bottom: 115px; */
+}
+/* Abstraction */
+
+/* background: url(.png); */
+@media only screen and (max-width: 360px) {
+  .header-contant {
+    width: 100%;
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    width: 116px;
+    height: 26px;
+    left: 20px;
+    top: 36px;
+  }
+  .hero-content {
+    position: absolute;
+    width: 338px;
+    height: 156px;
+    left: 20px;
+    top: 170px;
+  }
+  .hero-content-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    /* padding: 5px; */
+
+    color: #000000;
+  }
+  .hero-paragrapgh-position {
+    position: absolute;
+    width: 300px;
+    /* padding: 5px; */
+    height: 52px;
+    left: -1px;
+    top: 150px;
+  }
+
+  .hero-content-paragrapgh {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #9a9ea5;
+  }
+  /* button */
+  .btn {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 0px;
+    top: 270px;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background: linear-gradient(90deg, #92ebf1 4%, #86fde8 100%);
+    border-radius: 20px;
+    border: none;
+  }
+
+  .btn-design {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .right-image {
+    position: absolute;
+    width: 425px;
+    height: 374px;
+    left: -800px;
+    top: 390px;
+  }
+  .bg {
+    width: 100%;
+    position: absolute;
+    left: 720px;
+    /* right: -134px; */
+    /* top: -27px; */
+    /* bottom: -27px; */
+
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.15),
+        rgba(255, 255, 255, 0.15)
+      ),
+      linear-gradient(
+        5.78deg,
+        #aad5d7 4.59%,
+        rgba(194, 228, 231, 0.0001) 29.65%
+      ),
+      radial-gradient(
+          33.87% 46.72% at 1.99% 30.7%,
+          #b8e5e7 0%,
+          rgba(171, 218, 220, 0.0001) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      radial-gradient(88.89% 122.63% at 99.47% 33.2%, #97cdd2 0%, #abdadc 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: color, normal, normal, normal;
+  }
+
+  .img-position {
+    position: absolute;
+    left: 120px;
+    /* right: 120px; */
+    top: 145px;
+    /* bottom: 115px; */
+  }
+  img {
+    width: 200px;
+  }
+}

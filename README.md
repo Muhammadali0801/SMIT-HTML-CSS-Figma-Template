@@ -1,0 +1,23 @@
+# Project: Figma Template Implementation
+
+This repository contains my work on the five Figma templates provided as an assignment by the Saylani Mass IT Training Program (SMIT). The templates were designed with essential UI/UX elements and included:
+
+- **Header and Navigation Bar:** Clean and functional design for seamless user interaction.
+- **Hero Section:** Eye-catching visuals and text layouts.
+- **Buttons:** Stylish and interactive elements for calls-to-action.
+- **Images:** Well-placed visuals to enhance the overall design.
+- **Linear Gradients:** Smooth and appealing color transitions for a modern look.
+
+I have successfully completed the implementation of all these templates, ensuring that the designs are as close to the originals as possible. Each element was meticulously recreated to match the Figma files provided, showcasing my understanding of UI/UX design principles.
+
+## Figma Template Links:
+Here are the links to the Figma templates I have implemented:
+1. [Template 1](#)
+2. [Template 2](#)
+3. [Template 3](#)
+4. [Template 4](#)
+5. [Template 5](#)
+
+## Note:
+These designs are currently **not responsive**. Insha Allah, once I have learned and mastered responsive design techniques, I will update these templates to ensure they work seamlessly across all devices and screen sizes.
+

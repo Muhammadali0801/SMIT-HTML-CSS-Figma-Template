@@ -1,0 +1,157 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(223, 223, 232, 0.5);
+  overflow-x: hidden;
+}
+
+.logo {
+  position: absolute;
+  width: 116px;
+  height: 26px;
+  left: 40px;
+  top: 39px;
+}
+
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+  position: absolute;
+  width: 600px;
+  height: 19px;
+  left: 683px;
+  top: 53px;
+  list-style-type: none;
+}
+
+.ul-list > ol {
+  list-style-type: none;
+  border: 2px solid rgb(135, 135, 187);
+  padding: 0px 30px;
+  margin-left: 60px;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+/* hero section */
+
+.hero-section {
+  position: relative;
+}
+.bg-round {
+  position: absolute;
+  width: 234px;
+  height: 234px;
+  border-radius: 50%;
+  left: 62px;
+  top: 231px;
+
+  background: rgba(175, 82, 222, 0.2);
+  filter: blur(10px);
+}
+.hero-content {
+  /* Launch your own online learning platform for FREE */
+
+  position: absolute;
+  width: 617px;
+  height: 183px;
+  left: 50px;
+  top: 212px;
+}
+
+.main-hero-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+
+  /* Purple/90 */
+  color: #31135e;
+}
+
+.hero-content-para-position {
+  /* Top teacher from around the world teach thousands of students. Get unlimited access to 1000+ courses */
+
+  position: absolute;
+  width: 400px;
+  height: 52px;
+  left: 50px;
+  top: 428px;
+}
+.hero-paragrapgh {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  /* Cold Grey/70 */
+  color: #505258;
+}
+
+button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 50px;
+  top: 534px;
+
+  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 6px -4px rgba(24, 39, 75, 0.12),
+    0px 8px 8px -4px rgba(24, 39, 75, 0.08);
+  border-radius: 5px;
+  color: white;
+}
+
+/* right side disply */
+
+.right-side {
+  /* PixelBook Go */
+
+  position: absolute;
+  width: 996px;
+  height: 613px;
+  left: 444px;
+  top: 187px;
+}
+.right-image {
+  position: absolute;
+  left: 34.74%;
+  right: 6.74%;
+  top: 23.38%;
+  bottom: 7.22%;
+}
+
+.iner-image {
+  position: absolute;
+  width: 532.7px;
+  height: 302.26px;
+  left: 180.2px;
+  top: 19.61px;
+}
+
+.bg-round-lap {
+  position: absolute;
+  width: 600px;
+  height: 234px;
+  /* border-radius: 50%; */
+  left: 700.2px;
+  top: 650px;
+
+  background: rgba(175, 82, 222, 0.6);
+  filter: blur(60px);
+}
+.img-shadow {
+  box-shadow: rgba(24, 39, 75, 0.08);
+}

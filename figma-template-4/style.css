@@ -1,0 +1,110 @@
+body {
+  background-image: url(images/hero-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.main-header {
+  position: sticky;
+  top: 0px;
+  max-width: 1200px;
+}
+.icons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+  margin: 20px;
+}
+.logo {
+  position: absolute;
+  width: 116px;
+  height: 26px;
+  left: 17px;
+  top: 44px;
+}
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  list-style-type: none;
+
+  position: absolute;
+  width: 405px;
+  height: 19px;
+  left: 700px;
+  top: 40px;
+
+  color: white;
+}
+
+.ul-list > ol {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-content-heading {
+  position: absolute;
+  width: 464px;
+  height: 84px;
+  left: 50px;
+  top: 150px;
+}
+.hero-content-heading > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 62px;
+  color: #ffffff;
+}
+
+.hero-content-subheading {
+  position: absolute;
+  width: 638px;
+  height: 61px;
+  left: 50px;
+  top: 250px;
+}
+.subheading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  color: #ffffff;
+}
+.hero-content-paragrapgh-position {
+  /* Hi! My name ia Dmitrii Rogoza and i’m an expert in web design and branding. I can help you make you r website more attractive */
+
+  position: absolute;
+  width: 487px;
+  height: 72px;
+  left: 50px;
+  top: 400px;
+}
+.hero-paragrapgh {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 50px;
+  top: 552px;
+
+  /* Gradient/Purple/gradient 16 */
+  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}

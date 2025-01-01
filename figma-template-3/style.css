@@ -1,0 +1,133 @@
+body {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(71, 65, 65, 0.863) 99%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.header-content {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  width: 116px;
+  height: 26px;
+  left: 17px;
+  top: 39px;
+}
+
+.navlist {
+  position: absolute;
+  width: 405px;
+  height: 19px;
+  left: 553px;
+  top: 35px;
+  color: white;
+}
+.list-items {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 50px;
+}
+
+.header-btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 26px;
+  gap: 10px;
+
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 1120px;
+  top: 40px;
+
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero-content {
+  position: relative;
+}
+.hero-content-heading-position {
+  position: absolute;
+  width: 452px;
+  height: 183px;
+  left: 50px;
+  top: 201px;
+}
+
+.hero-content-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  color: white;
+}
+
+.hero-content-heading > span {
+  background: linear-gradient(90deg, #da22ff 0%, #9733ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-content-paragrapgh-position {
+  position: absolute;
+  width: 446px;
+  height: 72px;
+  left: 50px;
+  top: 448px;
+}
+
+.hero-content-paragrapgh {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.hero-btn-position {
+  position: absolute;
+  width: 211px;
+  height: 60px;
+  left: 50px;
+  top: 584px;
+}
+
+button {
+  background: linear-gradient(90deg, #ffe259 0%, #ffa751 100%);
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.speaker-image-small {
+  position: absolute;
+  width: 378px;
+  height: 513px;
+  left: 600px;
+  top: 452px;
+  z-index: 1;
+}
+
+.speaker-image-large {
+  position: absolute;
+  width: 498px;
+  height: 689px;
+  left: 840px;
+  top: 250px;
+}
