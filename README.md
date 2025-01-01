@@ -12,11 +12,11 @@ I have successfully completed the implementation of all these templates, ensurin
 
 ## Figma Template Links:
 Here are the links to the Figma templates I have implemented:
-1. [Template 1](#)
-2. [Template 2](#)
-3. [Template 3](#)
-4. [Template 4](#)
-5. [Template 5](#)
+1. [https://figma-design01-opal.vercel.app/](#)
+2. [https://figma-design02.vercel.app/](#)
+3. [https://figma-design03.vercel.app/](#)
+4. [https://figma-design04.vercel.app/](#)
+<!-- 5. [Template 5](#) -->
 
 ## Note:
 These designs are currently **not responsive**. Insha Allah, once I have learned and mastered responsive design techniques, I will update these templates to ensure they work seamlessly across all devices and screen sizes.
